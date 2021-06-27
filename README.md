@@ -84,8 +84,7 @@ Characters such as: `(` `)` `.` `[` `]` `{` `}` `/` `+` `|`
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Hi, my name is Sonali and I am a full-stack bootcamp student. I created this tutorial when learning regex by using URL matching. My github account is linked below if you want to check out more of my work.
 
 Github site: https://github.com/Patelso9
 
-About: 
