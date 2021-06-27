@@ -1,14 +1,14 @@
-# Regex- HTML matching
+# Regex- URL matching
 
 Regex (short for regular expressions) define specific search patterns though a sequence of characters. These search patterns can help validate inputs by find patterns in strings and/or the ability to replace characters/sequences in that string.
 
 ## Summary
 
-This tutorial will look at matching HTML tags with strings. 
+This tutorial will look at using strings to match URL. 
 
 Example of matching an HTML tag:
 ```
-/^<([a-z]+)([^<]+)*(?:>(.*)<\/\1>|\s+\/>)$/
+/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/
 ```
 
 ## Table of Contents
@@ -21,12 +21,18 @@ Example of matching an HTML tag:
 - [The OR Operator](#the-or-operator)
 - [Flags](#flags)
 - [Character Escapes](#character-escapes)
+- [Refrences](#refrences)
 
 ## Regex Components
 
 ### Anchors
+Anchors are the symbols are used to start and end your search expression, all the "action" will happen inside of these symbols. The below characters are used to match the relative position on a string (but will not match any characters). 
+ * `^` : Beginning of input
+ * `$` : End of a input string 
 
 ### Quantifiers
+
+
 
 ### Grouping Constructs
 
@@ -39,6 +45,9 @@ Example of matching an HTML tag:
 ### Flags
 
 ### Character Escapes
+
+### Refrences
+* 
 
 ## Author
 
