@@ -53,17 +53,28 @@ Symbols with Refrences:
 ### Grouping Constructs
 `()` : Parenthesis define a group that only acts upon itself
 * `(https?:\/\/)?` : can match ' ', 'https://', 'http://'
-* `([\/\w \.-]*)*` : can match '/', '/ab.', ' '
+* `([\/\w \.-]*)` : can match '/', '/ab.', ' '
 
 ### Bracket Expressions
 `[]` : Brackets enables the expression to search for multiple characters 
  match any of the characters in the square brackets
+* `[\da-z\.-]+` : matches a single character (d), (.), (-) or group of letters (a-z) 1 or more times
 
 ### Character Classes
+Set sequences of characters that match a larger set of characters:
+* `[a-z]` : matches any lowercase character in the alphaget from a through z
+* `\w` : matched a word
+* `\d` : matches a single character that's a digit
+* `.` : matches any character
 
 ### The OR Operator
+` | ` : is the character is used as an OR to enable searching multiple possiblitlies
+* `(t|T)he` : enables searching for 'the' or 'The'
+
+There are no examples of the OR opperator being used in the above expression, but I am keeping it in here since I think it's an important concept.
 
 ### Flags
+
 
 ### Character Escapes
 
