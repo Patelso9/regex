@@ -19,14 +19,13 @@ Example of matching an HTML tag that will be broken down below:
 - [Bracket Expressions](#bracket-expressions)
 - [Character Classes](#character-classes)
 - [The OR Operator](#the-or-operator)
-- [Flags](#flags)
 - [Character Escapes](#character-escapes)
 - [Refrences](#refrences)
 
 ## Regex Components
 
 ### Anchors
-Anchors are the symbols are used to start and end your search expression, all the "action" will happen inside of these symbols. The below characters are used to match the relative position on a string (but will not match any characters). 
+Anchors are the symbols are used to start and end your search expression, all the "action" will happen inside of these symbols. The below characters are used to match the relative position on a string. 
  * `^` : Beginning of input
  * `$` : End of a input string 
 
@@ -73,10 +72,10 @@ Set sequences of characters that match a larger set of characters:
 
 There are no examples of the OR opperator being used in the above expression, but I am keeping it in here since I think it's an important concept.
 
-### Flags
-
-
 ### Character Escapes
+`\` preceeds a predefined special character (see above for reference) and enables the ablility to above and be able to search for these special characters in the regex. 
+
+Characters such as: `(` `)` `.` `[` `]` `{` `}` `/` `+` `|`
 
 ### Refrences
 * https://www.youtube.com/watch?v=rhzKDrUiJVk&t=26s
