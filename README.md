@@ -87,4 +87,5 @@ Characters such as: `(` `)` `.` `[` `]` `{` `}` `/` `+` `|`
 Hi, my name is Sonali and I am a full-stack bootcamp student. I created this tutorial when learning regex by using URL matching. My github account is linked below if you want to check out more of my work.
 
 Github site: https://github.com/Patelso9
+Link to gist: https://gist.github.com/Patelso9/29f2c2794f971722cd0fb29bbf2657bc
 
