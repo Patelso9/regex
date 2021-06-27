@@ -6,7 +6,7 @@ Regex (short for regular expressions) define specific search patterns though a s
 
 This tutorial will look at using strings to match URL. 
 
-Example of matching an HTML tag we will breakdwon below:
+Example of matching an HTML tag that will be broken down below:
 ```
 /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/
 ```
@@ -47,11 +47,17 @@ Symbols with Refrences:
     * `{n}` : n = the total number of characters
     * `{n, }` : n = minimum number of characters being searched for
     * `{n,m}` : m = max number of characters being searched for, n = minimum number of characters being searched for
-    * `[a-z\.]{2,6}` : matches 2 - 6 copies of sequence [a-z\.]
+
+    * `[a-z\.]{2,6}` : matches 2 - 6 copies of [a-z\.]
 
 ### Grouping Constructs
+`()` : Parenthesis define a group that only acts upon itself
+* `(https?:\/\/)?` : can match ' ', 'https://', 'http://'
+* `([\/\w \.-]*)*` : can match '/', '/ab.', ' '
 
 ### Bracket Expressions
+`[]` : Brackets enables the expression to search for multiple characters 
+ match any of the characters in the square brackets
 
 ### Character Classes
 
@@ -64,7 +70,6 @@ Symbols with Refrences:
 ### Refrences
 * https://www.youtube.com/watch?v=rhzKDrUiJVk&t=26s
 * https://gist.github.com/penaone/80f920d38f55e552ce1063e890a2050b
-
 
 
 ## Author
